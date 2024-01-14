@@ -1,0 +1,15 @@
+ pod 'FBSDKCoreKit' 
+ pod 'FBSDKLoginKit' 
+ pod 'FBSDKShareKit' 
+ pod 'FBSDKPlacesKit' 
+ pod 'FBSDKMessengerShareKit'
+ 
+ Allow Advertiser Tracking
+ 
+// Set isAdvertiserTrackingEnabled to true if a device provides consent
+Settings.shared.isAdvertiserTrackingEnabled = true
+
+Do Not Allow Advertiser Tracking
+
+// Set isAdvertiserTrackingEnabled to false if a device does not provide consent
+Settings.shared.isAdvertiserTrackingEnabled = false
